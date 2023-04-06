@@ -1,0 +1,100 @@
+/* Write your CSS here */
+
+.bg-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.alert-notifications-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .alert-notifications-heading {
+    font-size: 30px;
+  }
+}
+
+.notification-list-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+}
+
+.notification-des-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.notification-status-type-message {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-status-type-message {
+    font-size: 20px;
+  }
+}
+
+.notification-description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-description {
+    font-size: 16px;
+  }
+}
+
+.status-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.notification-icon {
+  height: 26px;
+  width: 26px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-icon {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.success-color {
+  color: #2dca73;
+}
+
+.error-color {
+  color: #ff0b37;
+}
+
+.warning-color {
+  color: #ffb800;
+}
+
+.info-color {
+  color: #0f81e0;
+}
